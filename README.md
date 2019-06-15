@@ -1,5 +1,5 @@
 # itunes-scraping-using-nodejs
-Paste the itunes podcast page link. The app will fetch all the categories link and fetch the require urls and insert the code to mysql DB
+Paste the itunes podcast page link in the code. The app will fetch all the categories link and fetch the require urls and insert the code to mysql DB
  
 ### Run the code
 
