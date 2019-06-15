@@ -16,4 +16,4 @@ Go to browser and type http://localhost:3000/getcategories
 ```
 
 # NOTE!
- This is just a basic, consider it as a boilerplate code. it has note used settimeout or promsisechain to work async. So after writing first two data to the DB it will show some error and will exit the code. So for makeing it better users can download the code and make changes u need.
+ This is just a basic, consider it as a boilerplate code. it has note used settimeout or promsisechain to work async. So after writing first two data to the DB it will show some error and will exit the code. So for making it better users can download the code and make changes u need.
