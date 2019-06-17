@@ -60,7 +60,7 @@ app.get('/getcategories', (req, res) => {
     }
 
     function grabXml(feedurl) {
-        request(constfeedurl, function (err, resp, xmlbodyval) {
+        request(feedurl, function (err, resp, xmlbodyval) {
             let xmlval = xmlParser.toJson(xmlbodyval);
             const jsonval = JSON.parse(xmlval);
 
