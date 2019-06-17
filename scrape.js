@@ -54,8 +54,8 @@ app.get('/getcategories', (req, res) => {
         var url = 'https://itunes.apple.com/lookup?id=' + id;
         request(url, function (err, resp, body) {
             const val = JSON.parse(body);
-            constfeedurl = val.results[0]['feedUrl'];
-            grabXml(constfeedurl);
+            const feedDataUrl = val.results[0]['feedUrl'];
+            grabXml(feedDataUrl);
         })
     }
 
