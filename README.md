@@ -5,7 +5,8 @@ to mysql DB
 ### Run the code
 
 Requires [Node.js](https://nodejs.org/) v4+ to run.
-<br>xampp
+<br> xampp
+<br> import the sql file to phpmyadmin
 
 Install the dependencies and devDependencies and start the server.
 
